@@ -1,12 +1,33 @@
 body{
     box-sizing: border-box;
     margin: 0;
+
 }
 
 .night{
     color: white;
     background-color: black;
-    width: 100vw;
-    height: 100vh;
-    margin: 0;
+    
 }
+
+.foto{
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+}
+
+.border-color-women{
+    border: 2px solid red;
+}
+.border-color-men{
+    border: 2px solid blue;
+}
+.border-color-anonim{
+    border: 2px solid grey;
+}
+
+.container{
+    display: flex;
+    justify-content: space-between;
+}
+
